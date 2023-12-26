@@ -36,6 +36,36 @@ a[target=_blank]:after {
   content: "↗";
 }
 
+.sidebar-toggle {
+  bottom: auto;
+  top: 0;
+  width: auto;
+  padding: 15px 15px 11px;
+}
+
+body.close .sidebar-toggle {
+  width: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar-toggle {
+    padding: 15px 15px 6px;
+  }
+
+  body.close .sidebar-toggle {
+    width: auto;
+    padding: 15px 15px 6px;
+  }
+}
+
+body .sidebar-toggle:active {
+  background: transparent;
+}
+
+body .sidebar-toggle:focus {
+  background: transparent;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #1e1e1e;
