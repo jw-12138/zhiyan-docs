@@ -1,0 +1,106 @@
+body {
+  font-weight: 400;
+}
+
+.content .markdown-section {
+  max-width: 680px;
+}
+
+.markdown-section > h1 {
+  font-size: 2.5em;
+}
+
+.app-name-link img {
+  max-width: 48px;
+  border-radius: 12px;
+  box-shadow: 3px 3px 15px 0 rgba(0, 0, 0, .08);
+}
+
+video {
+  max-width: 100%;
+  width: 100%;
+}
+
+.sidebar ul li.active > a {
+  background: #f2f2f2;
+  border-radius: 5px 0 0 5px;
+  padding-left: 10px;
+  margin-left: -10px;
+}
+
+.sidebar-nav ul li:last-child {
+  margin-bottom: 20px;
+}
+
+a[target=_blank]:after {
+  content: "↗";
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1e1e1e;
+    color: #fff;
+  }
+
+  :root {
+    --theme-color: #fff;
+  }
+
+  .markdown-section a {
+    color: #fff;
+  }
+
+  .anchor span {
+    color: #fff;
+  }
+
+  .sidebar {
+    color: #ddd;
+    background: #222;
+  }
+
+  .sidebar ul li a {
+    color: #fff;
+  }
+
+  .sidebar-toggle {
+    background: transparent;
+  }
+
+  .sidebar-toggle span {
+    background-color: #fff;
+  }
+
+  .markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section strong {
+    color: #fff;
+  }
+
+  .sidebar ul li.active > a {
+    color: #fff;
+  }
+
+  .markdown-section code {
+    color: #fff;
+    background: #333;
+  }
+
+  .markdown-section blockquote {
+    color: #e2e2e2;
+  }
+
+  .markdown-section pre {
+    background: #333;
+  }
+
+  .markdown-section pre > code {
+    color: #fff;
+  }
+
+  .markdown-section hr {
+    border-color: #333;
+  }
+
+  .sidebar ul li.active > a {
+    background: #333;
+  }
+}

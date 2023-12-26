@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="lib/css/main.css">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="lib/css/custom.css">
+</head>
+<body>
+<div id="app"></div>
+<script>
+  window.$docsify = {
+    name: '只言 - 用户手册',
+    loadSidebar: true,
+    logo: '/lib/img/logo.png',
+    routerMode: 'history',
+    alias: {
+      '/.*/_sidebar.md': '/_sidebar.md'
+    },
+    markdown: {
+      renderer: {
+        image: function (href, title, text) {
+          if (text === 'video') {
+            return `<video src="${href}" controls="controls" autoplay muted style="max-width: 100%; border-radius: 8px;"></video>`
+          } else if (text === 'audio') {
+            return `<audio src="${href}" controls="controls" autoplay muted style="max-width: 100%; border-radius: 8px;"></audio>`
+          } else {
+            let width = '100%'
+            let height = 'auto'
+            if (title && title.startsWith(':size=')) {
+              let size = title.split('=')[1]
+              width = size.split('x')[0]
+              height = size.split('x')[1]
+
+              if (!height) {
+                height = 'auto'
+              } else {
+                height = height + 'px'
+              }
+
+              if (!width) {
+                width = 'auto'
+              } else {
+                width = width + 'px'
+              }
+            }
+            return `<img src="${href}" alt="${text}" title="${text}" style="max-width: 100%; border-radius: 8px; width: ${width}; height: ${height}"/>`
+          }
+        }
+      }
+    }
+  }
+</script>
+<!-- Docsify v4 -->
+<script src="lib/js/docsify.js"></script>
+</body>
+</html>

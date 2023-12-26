@@ -1,0 +1,24 @@
+- 只言
+  - [介绍](/)
+  - [定价](pricing.md)
+- 功能
+  - [对话](features/conversation.md)
+  - [编辑或重新生成指定问题](features/editSentMessages.md)
+  - [切换AI生成文本的渲染模式](features/switchOutputFormat.md)
+  - [对话点数指示器](features/conversationTokenIndicator.md)
+  - [对话历史](features/conversationHistory.md)
+  - [识图](features/recognizeImages.md)
+  - 侧栏
+    - [开启新对话](features/sidebar/newConversation.md)
+    - [重新生成上个问题](features/sidebar/reGenLastQuestion.md)
+    - [分享你和AI的对话](features/sidebar/shareYourConversation.md)
+    - [「勾选」 - 显示提问示例](features/sidebar/showQuestionExamples.md)
+    - [「勾选」 - 显示输入时的提示](features/sidebar/showTipsWhenInput.md)
+    - [「勾选」 - 默认使用HTML输出](features/sidebar/showHtmlWhenOutput.md)
+    - [「勾选」 - 裁切对话](features/sidebar/cutConversations.md)
+    - 高级功能
+      - [切换模型](features/sidebar/advancedFeatures/switchModels.md)
+      - [捷径](features/sidebar/advancedFeatures/shortcuts.md)
+- 外部链接
+  - [用户中心](https://sso.jw1.dev ':target=_blank')
+  - [只言](https://www.zhiyan.dev ':target=_blank')
