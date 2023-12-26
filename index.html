@@ -26,7 +26,7 @@
       renderer: {
         image: function (href, title, text) {
           if (text === 'video') {
-            return `<video src="${href}" controls="controls" autoplay muted style="max-width: 100%; border-radius: 8px;"></video>`
+            return `<video src="${href}" controls="controls" autoplay playsinline muted style="max-width: 100%; border-radius: 8px;"></video>`
           } else if (text === 'audio') {
             return `<audio src="${href}" controls="controls" autoplay muted style="max-width: 100%; border-radius: 8px;"></audio>`
           } else {

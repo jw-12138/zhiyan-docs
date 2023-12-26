@@ -6,7 +6,8 @@
   "author": "Jacky <29943110+jw-12138@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "build": "node changeLog.js"
+    "build": "node changeLog.js",
+    "dev": "docsify s -p 4004"
   },
   "devDependencies": {
     "dayjs": "^1.11.10",
