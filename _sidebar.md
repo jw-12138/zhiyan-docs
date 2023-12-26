@@ -1,6 +1,7 @@
 - 只言
   - [介绍](/)
   - [定价](pricing.md)
+  - [版本更新日志](CHANGELOG.md)
 - 功能
   - [对话](features/conversation.md)
   - [编辑或重新生成指定问题](features/editSentMessages.md)

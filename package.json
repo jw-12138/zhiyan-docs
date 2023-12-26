@@ -1,0 +1,15 @@
+{
+  "name": "zhiyan-docs",
+  "version": "1.0.0",
+  "type": "module",
+  "repository": "https://github.com/jw-12138/zhiyan-docs.git",
+  "author": "Jacky <29943110+jw-12138@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node changeLog.js"
+  },
+  "devDependencies": {
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.3.1"
+  }
+}
