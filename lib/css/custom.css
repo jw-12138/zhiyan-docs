@@ -55,6 +55,7 @@ body.close .sidebar-toggle {
   body.close .sidebar-toggle {
     width: auto;
     padding: 15px 15px 6px;
+    background: transparent;
   }
 }
 
