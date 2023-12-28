@@ -3,7 +3,7 @@ import fs from 'fs'
 import dayjs from 'dayjs'
 
 let apiBase = process.env.MONGO_API_BASE
-let endpoint = apiBase + `/client_versions/find`
+let endpoint = apiBase + `/db/run`
 console.log('Getting versions from remote...')
 let resp = await fetch(endpoint, {
   method: 'POST',
@@ -12,17 +12,13 @@ let resp = await fetch(endpoint, {
     'x-api-key': process.env.MONGO_API_KEY
   },
   body: JSON.stringify({
-    sort: {
-      created: -1
-    },
-    projection: {
-      _id: 0,
-      userName: 0
-    }
+    stmt: `select * from client_versions order by created desc`
   })
 })
 
 let json = await resp.json()
+
+json = json.data
 
 console.log('Generating markdown...')
 
