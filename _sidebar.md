@@ -21,5 +21,5 @@
       - [切换模型](features/sidebar/advancedFeatures/switchModels.md)
       - [捷径](features/sidebar/advancedFeatures/shortcuts.md)
 - 外部链接
-  - [用户中心](https://sso.jw1.dev ':target=_blank')
+  - [用户中心](https://user.zhiyan.dev ':target=_blank')
   - [只言](https://www.zhiyan.dev ':target=_blank')
