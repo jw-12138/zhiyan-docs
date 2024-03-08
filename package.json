@@ -12,5 +12,8 @@
   "devDependencies": {
     "dayjs": "^1.11.10",
     "dotenv": "^16.3.1"
+  },
+  "dependencies": {
+    "docsify": "^4.13.1"
   }
 }

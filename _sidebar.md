@@ -4,6 +4,7 @@
   - [版本更新日志](CHANGELOG.md)
 - 功能
   - [对话](features/conversation.md)
+  - [联网查询](features/onlineSearch.md)
   - [编辑或重新生成指定问题](features/editSentMessages.md)
   - [切换AI生成文本的渲染模式](features/switchOutputFormat.md)
   - [对话点数指示器](features/conversationTokenIndicator.md)
@@ -14,7 +15,6 @@
     - [重新生成上个问题](features/sidebar/reGenLastQuestion.md)
     - [分享你和AI的对话](features/sidebar/shareYourConversation.md)
     - [「勾选」 - 显示提问示例](features/sidebar/showQuestionExamples.md)
-    - [「勾选」 - 显示输入时的提示](features/sidebar/showTipsWhenInput.md)
     - [「勾选」 - 默认使用HTML输出](features/sidebar/showHtmlWhenOutput.md)
     - [「勾选」 - 裁切对话](features/sidebar/cutConversations.md)
     - 高级功能
