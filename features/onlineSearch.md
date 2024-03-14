@@ -4,4 +4,4 @@
 
 使用方式：输入`/s <搜索内容>`并发送
 
-![video](https://blog-r2.jw1.dev/jSxxsGAe0IimXzNL.mp4)
+![video](https://blog-r2.jw1.dev/MePqpdV4BUN5Q2Uc.mp4)

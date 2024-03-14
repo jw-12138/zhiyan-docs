@@ -10,4 +10,4 @@
 
 当你第一次进入「只言」时，默认使用的模型是来自 OpenAI 的 3.5-turbo，当你觉得3.5不能胜任你的要求时，可以切换到其他高倍率模型试试看。
 
-![](https://blog-r2.jw1.dev/l_yiCwr5UmEf9Q9g.png ':size=300')
+![video](https://blog-r2.jw1.dev/YA4zmeFEUo2xcqF7.mp4)

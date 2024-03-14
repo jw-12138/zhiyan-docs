@@ -4,6 +4,4 @@
 
 当然，你随时可以关闭这项功能，或者调整被裁切的消息条数。
 
-![](https://blog-r2.jw1.dev/XYybKzgR9MsB3j7u.png)
-
-![](https://blog-r2.jw1.dev/vRuXXdEjkkFpBlFV.png)
+![video](https://blog-r2.jw1.dev/n6SrIFBuAsnoNVon.mp4)

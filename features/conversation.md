@@ -2,4 +2,4 @@
 
 背靠各种语言大模型，「只言」提供了强大的自然语言交互能力，登录后你将会看到一个置于页面底部的文本输入框，在这里键入你的问题或者其他文本内容，或者直接使用我们为你提供的示例问题，点击发送按钮即可开始与「只言」聊天。
 
-![video](https://blog-r2.jw1.dev/zhiyan_conversation.mp4)
+![video](https://blog-r2.jw1.dev/MCjeH5O1pVynZStn.mp4)
